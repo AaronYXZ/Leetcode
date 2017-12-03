@@ -42,3 +42,4 @@ class Solution(object):
             for item in nums:
                 total*=item
             return [total / item for item in nums]
+        
