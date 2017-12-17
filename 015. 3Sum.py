@@ -20,7 +20,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-        # Sorted array can save a lot of time
+        ## https://shenjie1993.gitbooks.io/leetcode-python/015%203Sum.html
         nums.sort()
         result = []
         i = 0
